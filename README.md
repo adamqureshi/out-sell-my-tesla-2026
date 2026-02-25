@@ -15,3 +15,7 @@ https://onlyusedtesla.com/sell-my-tesla
 
 ## Edit the CTA
 Update the “Create listing” URL in `index.html` to your real route.
+
+
+## Trust layer
+Adds a "Trusted by Tesla owners" section with links to Google Reviews, a Reddit thread, and a Jalopnik feature.
