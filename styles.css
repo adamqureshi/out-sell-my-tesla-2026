@@ -546,3 +546,30 @@ em{ font-style: normal; text-decoration: underline; text-underline-offset: 2px; 
     justify-content: start;
   }
 }
+
+
+/* Agreement (details) */
+.agreement{
+  margin-top: 12px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(216,221,226,.95);
+  background: rgba(245,246,247,.65);
+  padding: 12px 14px;
+}
+.agreement summary{
+  cursor: pointer;
+  font-weight: 950;
+  list-style: none;
+}
+.agreement summary::-webkit-details-marker{ display:none; }
+.agreement-body{
+  padding-top: 10px;
+  line-height: 1.55;
+}
+.agreement-example{
+  margin-top: 8px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px dashed rgba(216,221,226,.95);
+  background: rgba(255,255,255,.65);
+}

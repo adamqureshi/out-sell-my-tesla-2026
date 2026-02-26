@@ -3,15 +3,11 @@
 Static public landing page for:
 https://onlyusedtesla.com/sell-my-tesla
 
-## Updated pricing
-- **Basic Ad: $27** (valid for 30 days)
-- Add-ons:
-  - AutoCheck or CARFAX: +$20
-  - 1-minute HD video: +$20
-  - Facebook Marketplace posting: +$25 (7 days)
-  - Facebook groups: $10/group (0–5)
-  - Text notifications: +$5
-  - Cash offer option: $0
+## Updated pricing (March test)
+
+- **$0 upfront** to create a 30-day listing
+- **1% sold fee** only if you sell to a buyer who came from Only Used Tesla (example: $50,000 → $500)
+- Add-ons remain paid at checkout (reports, video, Facebook posting, SMS)
 
 ## Edit the CTA
 Update the “Create listing” URL in `index.html` to your real route.
@@ -19,3 +15,6 @@ Update the “Create listing” URL in `index.html` to your real route.
 
 ## Trust layer
 Adds a "Trusted by Tesla owners" section with links to Google Reviews, a Reddit thread, and a Jalopnik feature.
+
+
+##
