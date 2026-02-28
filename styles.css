@@ -573,3 +573,74 @@ em{ font-style: normal; text-decoration: underline; text-underline-offset: 2px; 
   border: 1px dashed rgba(216,221,226,.95);
   background: rgba(255,255,255,.65);
 }
+
+
+/* State SEO hub (footer-style) */
+:root{
+  --link: #0b5bd3;
+  --stateBg: #e9eef3;
+}
+
+.states-hub{ padding-bottom: 34px; }
+.states-box{
+  background: var(--stateBg);
+  border: 1px solid rgba(216,221,226,.95);
+  border-radius: 22px;
+  padding: 20px;
+}
+.states-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.states-viewall{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height: 40px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(216,221,226,.95);
+  background: rgba(255,255,255,.75);
+  color: var(--link);
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.states-viewall:hover{ background: rgba(255,255,255,.92); }
+
+.states-list{
+  column-count: 2;
+  column-gap: 28px;
+  padding-top: 6px;
+}
+.state-link{
+  display:block;
+  padding: 7px 0;
+  color: var(--link);
+  font-weight: 900;
+  text-decoration: none;
+}
+.state-link:hover{ text-decoration: underline; }
+
+@media (min-width: 820px){
+  .states-list{ column-count: 5; }
+}
+@media (min-width: 1100px){
+  .states-list{ column-count: 6; }
+}
+
+
+/* States index page */
+.states-page-box{
+  background: rgba(255,255,255,.75);
+  border: 1px solid rgba(216,221,226,.95);
+  border-radius: 22px;
+  padding: 16px 18px;
+}
+.states-list-page{ column-count: 2; }
+@media (min-width: 820px){
+  .states-list-page{ column-count: 6; }
+}

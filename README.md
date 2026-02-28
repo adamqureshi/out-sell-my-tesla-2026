@@ -18,3 +18,16 @@ Adds a "Trusted by Tesla owners" section with links to Google Reviews, a Reddit 
 
 
 ##
+
+## State SEO pages
+
+This repo includes lightweight SEO landing pages for **“Sell My Tesla in {State}”**.
+
+- State index: `sell-my-tesla-by-state/`
+- Example: `sell-my-tesla-california/`
+
+### Add another state
+1. Create a folder like: `sell-my-tesla-<state-slug>/index.html`
+2. Add it to the “Sell your Tesla in your home state” section on `index.html`
+
+> Tip: Keep the copy short and consistent. The goal is to get the seller into checkout fast.
